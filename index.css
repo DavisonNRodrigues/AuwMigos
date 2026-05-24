@@ -1,31 +1,107 @@
+a{
+   color: white;
+  text-decoration: none;
+}
+.header1 ol{
+   display: flex;
+  gap: 20px;
+  font-family: "Sigmar", sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.header1{
+  grid-row: 2/3;
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav1{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100px;
+}
+img{
+  width: 35px;
+  height: 35px;
+}
+li{
+   list-style: none;
+}
+.sec1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pesquisa{
+  display: flex;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.pesquisa button{
+  border: none;
+  background: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+   justify-content: center;
+  align-items: center; justify-content: center;
+  align-items: center;
+}
+
+.pesquisa button:hover{
+  background: darkorange;
+}
 .container{
     display: grid;
-    grid-template: 60px auto 35px/ repeat(4,fr);
+    grid-template-rows: 80px 40px 60px 40px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 .logo{
-    width: 80px;
-    height: 80px;
-}
-h1{
-    color: aliceblue;
-}
-header{
-    background-color:rgb(87, 27, 27);
-    grid-row: 1/2;
-    grid-column: 1/6;
     display: flex;
     align-items: center;
-    position: static;
+    justify-content: flex-start;
+    width: 120px;
+    height: 100px;
+
+}
+h1{
+    color:rgb(255, 149, 0);
+    font-family: "Sigmar", sans-serif;
+}
+header{
+    background-color:white;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
 }
 main{
     background-color: rgb(155, 78, 78);
-    grid-row: 2/6;
-    grid-column: 1/6;
+    grid-row: 3/4;
 }
 footer{
     background-color:rgb(83, 22, 22);
-    grid-row: 6/8;
-    grid-column: 1/6;
+    grid-row: 4/5;
 }
