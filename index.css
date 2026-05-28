@@ -12,6 +12,8 @@
   border-radius: 20px;
   width: 250px;
   height: auto;
+  flex-direction: column-reverse;
+  
 }
 .entrega{
   background-color: whitesmoke;
@@ -40,10 +42,11 @@
 .banner{
   width: 100%;
   height: auto;
-  margin-top: -150px;
+  margin-top: -110px;
+  margin-bottom: -100px;
 }
 a{
-   color: white;
+  color: white;
   text-decoration: none;
 }
 .header1 ol{
@@ -112,8 +115,7 @@ li{
   border-radius: 50px;
   cursor: pointer;
   font-size: 16px;
-   justify-content: center;
-  align-items: center; justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -150,11 +152,11 @@ header{
 }
 main{
   row-gap: 10px;
-    background-color: rgb(243, 135, 135);
+    background-color: rgb(255, 255, 255);
     grid-row: 3/4;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
+    
 }
 footer{
     background-color:rgb(83, 22, 22);
@@ -168,5 +170,10 @@ footer{
 .Diferencial{
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: -100px;
+}
+h2{
+  font-family: "Sigmar", sans-serif;
+  color: orangered;
+
 }
