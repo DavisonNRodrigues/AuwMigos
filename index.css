@@ -1,6 +1,46 @@
+.diferencial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.qualidade{
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  width: 250px;
+  height: auto;
+}
+.entrega{
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+   width: 250px;
+  height: auto;
+}
+.cuidado{
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+   width: 250px;
+  height: auto;
+}
+.amor{
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+   width: 250px;
+  height: auto;
+}
 .banner{
-  width: 99%;
-  height: 250px;
+  width: 100%;
+  height: auto;
+  margin-top: -150px;
 }
 a{
    color: white;
@@ -11,7 +51,7 @@ a{
   gap: 20px;
   font-family: "Sigmar", sans-serif;
   margin: 0;
-  padding: 0 20px;
+  padding: 0;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -21,6 +61,10 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  padding-bottom: 0;
+  
 }
 .nav1{
   display: flex;
@@ -78,9 +122,10 @@ li{
 }
 .container{
     display: grid;
-    grid-template-rows: 80px 40px 100pxpx 40px;
+    grid-template-rows: 80px 40px auto 40px;
     height: 100vh;
     width: 100%;
+    row-gap: 5px;
 }
 .logo{
     display: flex;
@@ -95,6 +140,8 @@ h1{
     font-family: "Sigmar", sans-serif;
 }
 header{
+  position: sticky;
+  top: 0px;
     background-color:white;
     grid-row: 1/2;
     display: flex;
@@ -102,10 +149,24 @@ header{
     justify-content: space-between;  
 }
 main{
-    background-color: rgb(255, 255, 255);
+  row-gap: 10px;
+    background-color: rgb(243, 135, 135);
     grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
 }
 footer{
     background-color:rgb(83, 22, 22);
     grid-row: 4/5;
+}
+.tituloD{
+  font-family: "Sigmar", sans-serif;
+  color: brown;
+  text-align: center;
+}
+.Diferencial{
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
