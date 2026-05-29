@@ -12,8 +12,7 @@
   border-radius: 20px;
   width: 250px;
   height: auto;
-  flex-direction: column-reverse;
-  
+  text-align: center;
 }
 .entrega{
   background-color: whitesmoke;
@@ -176,4 +175,9 @@ h2{
   font-family: "Sigmar", sans-serif;
   color: orangered;
 
+}
+.simbqualidade{
+  height: 80px;
+  width: 80px;
+  
 }
