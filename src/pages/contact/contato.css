@@ -143,8 +143,8 @@ footer{
 .icones{
     display: flex;
     gap: 15px;
-    width: 100px;
-    height: 100px;
+    width: 1px;
+    height: 1px;
 }
 .icones a:hover{
     background: #ff9d3d;
