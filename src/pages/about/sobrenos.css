@@ -1,0 +1,163 @@
+.titulo-pagina{
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff8f2;
+}
+
+.titulo-pagina h1{
+    color: #ff6600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.titulo-pagina p{
+    color: #555;
+}
+
+.contato,
+.avaliacoes,
+.sobre{
+    width: 85%;
+    margin: 60px auto;
+}
+
+.contato{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informacoes,
+form,
+.card-avaliacao{
+    background: #fff8f2;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+input,
+textarea{
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+button{
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.avaliacoes{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card-avaliacao{
+    flex: 1;
+    min-width: 250px;
+}
+
+.sobre h2{
+    color: #ff6600;
+    margin-top: 35px;
+}
+
+.sobre p,
+.sobre li{
+    line-height: 1.8;
+}
+footer{
+    margin-top: 80px;
+    background: #fff7f1;
+}
+
+.footer-container{
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 40px 0;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logo2{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo2 img{
+    width: 300px;
+    height: 300px;
+}
+
+.footer-logo p{
+    margin-top: 15px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contato,
+.footer-links,
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container h3{
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.footer-container p,
+.footer-container a{
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover{
+    color: #ff6600;
+}
+
+.icones{
+    display: flex;
+    gap: 15px;
+    width: 100px;
+    height: 100px;
+}
+.icones a:hover{
+    background: #ff9d3d;
+}
+
+.footer-copy{
+    background: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.titulofooter{
+  width: 100px;
+  height: 100px;
+
+}
